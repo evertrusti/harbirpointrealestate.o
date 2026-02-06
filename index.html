@@ -1,105 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HarbirPoint Law & Real Estate</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin:0; color:#222; line-height:1.6; background:skyblue; }
-    a { text-decoration:none; color:inherit; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    .btn { display:inline-block; background:#0f2a44; color:#fff; padding:12px 25px; border-radius:5px; font-weight:bold; transition:0.3s; }
-    .btn:hover { background:#0d2438; }
+<title>HarbirPoint Real Estate Law | Trusted Legal Experts</title>
 
-    header { background:#0f2a44; color:#fff; padding:20px 40px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; }
-    header h1 { font-size:24px; }
-    nav a { color:#fff; margin-left:20px; font-weight:bold; }
-    nav a:hover { text-decoration:underline; }
+<meta name="description" content="HarbirPoint Real Estate Law provides expert legal services in real estate, corporate law, litigation, escrow management and legal consultation. Call 847-447-6952.">
+<meta name="keywords" content="real estate lawyer, property law attorney, escrow law firm, legal services USA">
+<meta name="author" content="HarbirPoint Real Estate Law">
 
-    .hero { position:relative; color:#fff; height:90vh; display:flex; align-items:center; justify-content:center; text-align:center; background:url('https://images.unsplash.com/photo-1581091215365-19f30d63c7f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTI1NjB8MHwxfGFsbHwxfHxsaWdhdCwgcGFwZXJzJTIwYW5kJTIwcmVhbCUyMGVzdGF0ZXxlbnwwfHx8fDE2ODY5OTUwNTZ8&ixlib=rb-4.0.3&q=80&w=1600') center/cover no-repeat; }
-    .hero div { background:rgba(15,42,68,0.7); padding:50px; border-radius:15px; max-width:800px; }
-    .hero h1 { font-size:48px; margin-bottom:20px; }
-    .hero p { font-size:20px; margin-bottom:30px; }
+<style>
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:#f4f6f9;
+color:#333;
+}
 
-    section { padding:80px 20px; max-width:1200px; margin:auto; }
+header{
+background:#0f2a44;
+color:#fff;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
 
-    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:30px; }
-    .card { background:#f0f4fa; padding:30px; border-radius:15px; box-shadow:0 10px 25px rgba(0,0,0,0.08); text-align:center; transition:all 0.3s ease; }
-    .card:hover { transform:translateY(-10px); box-shadow:0 20px 40px rgba(0,0,0,0.12); }
-    .card img { width:60px; height:60px; margin-bottom:20px; }
+.logo{
+font-size:26px;
+font-weight:bold;
+color:#d4af37;
+}
 
-    #team .card img { width:120px; height:120px; border-radius:50%; margin-bottom:20px; object-fit:cover; }
+nav a{
+color:#fff;
+margin-left:20px;
+text-decoration:none;
+font-weight:600;
+}
 
-    #contact form, #newsletter form { display:flex; flex-direction:column; max-width:600px; margin:auto; }
-    #contact input, #contact textarea, #newsletter input { margin-bottom:15px; padding:10px; border-radius:5px; border:1px solid #ccc; }
-    #contact button, #newsletter button { padding:12px; border:none; border-radius:5px; cursor:pointer; background:#0f2a44; color:#fff; font-weight:bold; }
-    #contact button:hover, #newsletter button:hover { background:#0d2438; color:#fff; }
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:url("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1600&q=80") center/cover;
+color:#fff;
+}
 
-    footer { background:#0f2a44; color:#fff; text-align:center; padding:20px; font-size:14px; }
-    footer a { color:#fff; text-decoration:underline; }
+.hero div{
+background:rgba(0,0,0,0.6);
+padding:60px;
+border-radius:12px;
+}
 
-    @media(max-width:768px){
-      .hero h1 { font-size:36px; }
-      .hero p { font-size:18px; }
-      header { flex-direction:column; align-items:flex-start; }
-      nav a { margin-left:0; margin-top:10px; }
-    }
-  </style>
+.btn{
+background:#d4af37;
+padding:12px 25px;
+color:#000;
+border-radius:5px;
+font-weight:bold;
+text-decoration:none;
+}
+
+section{
+padding:70px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:#fff;
+padding:25px;
+border-radius:12px;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.team img{
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+}
+
+footer{
+background:#0f2a44;
+color:#fff;
+text-align:center;
+padding:20px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:#fff;
+padding:15px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+box-shadow:0 4px 15px rgba(0,0,0,0.3);
+}
+</style>
 </head>
+
 <body>
 
 <header>
-  <h1>HarbirPoint Law & Real Estate</h1>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#team">Team</a>
-    <a href="#faq">FAQ</a>
-    <a href="#testimonials">Testimonials</a>
-    <a href="#newsletter">Newsletter</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<div class="logo">⚖️ HarbirPoint Real Estate Law</div>
+
+<nav>
+<a href="#services">Services</a>
+<a href="#team">Team</a>
+<a href="#appointment">Appointment</a>
+</nav>
 </header>
 
-<section id="home" class="hero">
-  <div>
-    <h1>Your Trusted Legal Partner</h1>
-    <p>Providing expert legal guidance and representation with integrity and dedication.</p>
-    <a href="#services" class="btn">Get a Free Consultation</a>
-  </div>
-</section>
-
-<section id="about">
-  <h2>A Legacy of Justice & Excellence</h2>
-  <p>At <strong>HarbirPoint Law & Real Estate</strong>, we uphold the highest standards of legal practice. Our team provides unparalleled legal representation across various domains.</p>
-  <p>Client-focused and results-driven, we aim for the best outcomes with integrity and dedication.</p>
-  <a href="#services" class="btn">Learn More</a>
+<section class="hero">
+<div>
+<h1>Premium Legal Representation</h1>
+<p>Real Estate • Corporate Law • Escrow • Litigation</p>
+<a href="tel:18474476952" class="btn">Call 847-447-6952</a>
+</div>
 </section>
 
 <section id="services">
-  <h2 style="text-align:center; font-size:36px; color:#0f2a44; margin-bottom:50px;">Our Services</h2>
-  <div class="cards">
-    <div class="card"><strong>Corporate Law</strong><p>Business formation, contracts, mergers, acquisitions, compliance.</p></div>
-    <div class="card"><strong>Family Law</strong><p>Divorce, child custody, and domestic matters handled sensitively.</p></div>
-    <div class="card"><strong>Litigation</strong><p>Court representation for civil disputes, criminal defense, and appeals.</p></div>
-    <div class="card"><strong>Real Estate Law</strong><p>Property transactions, landlord-tenant issues, and disputes.</p></div>
-    <div class="card"><strong>Personal Injury</strong><p>Advocacy for victims of accidents and negligence.</p></div>
-    <div class="card"><strong>Estate Planning</strong><p>Wills, trusts, probate, and asset protection guidance.</p></div>
-    <div class="card"><strong>Escrow Management</strong><p>Secure holding and release of funds for transactions.</p></div>
-  </div>
+<h2 style="text-align:center">Our Legal Services</h2>
+
+<div class="cards">
+<div class="card">⚖️ Real Estate Law</div>
+<div class="card">🏢 Corporate Law</div>
+<div class="card">📜 Litigation</div>
+<div class="card">🔐 Escrow Services</div>
+<div class="card">👨‍👩‍👧 Family Law</div>
+<div class="card">💼 Estate Planning</div>
+</div>
 </section>
 
 <section id="team">
-  <h2>Meet Our Expert Team</h2>
-  <div class="cards">
-    <div class="card"><img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e"><strong>Habir Sanches</strong><em>Owner & Attorney</em><p>Specializes in property law and fund recovery with 15+ years of experience.</p></div>
-    <div class="card"><img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12"><strong>James Luis</strong><em>Attorney</em><p>Focused on dispute resolution and legal compliance in real estate transactions.</p></div>
-    <div class="card"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2"><strong>Andra Gregory</strong><em>Shareholder</em><p>Oversees operations and strategic growth of the firm.</p></div>
-    <div class="card"><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df"><strong>Linda Marris</strong><em>Escrow Manager</em><p>Expert in secure escrow management and client fund protection.</p></div>
-    <div class="card"><img src="https://images.unsplash.com/photo-1603415526960-f8f0b0f7a0c8"><strong>Andrew Habir</strong><em>Founder & Attorney</em><p>An experienced attorney with over 20 years in law and property management, recognized for leadership and legal excellence.</p></div>
-  </div>
+<h2 style="text-align:center">Professional Attorneys</h2>
+
+<div class="cards team">
+<div class="card">
+<img src="https://randomuser.me/api/portraits/men/32.jpg">
+<h3>Andrew Habir</h3>
+<p>Senior Real Estate Attorney</p>
+</div>
+
+<div class="card">
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<h3>Linda Marris</h3>
+<p>Escrow Specialist</p>
+</div>
+
+<div class="card">
+<img src="https://randomuser.me/api/portraits/men/68.jpg">
+<h3>James Luis</h3>
+<p>Corporate Lawyer</p>
+</div>
+</div>
 </section>
+
+<section id="appointment">
+<h2 style="text-align:center">Book an Appointment</h2>
+
+<form action="mailto:info@harbirpointrealestate.org" method="post" enctype="text/plain"
+style="max-width:500px;margin:auto">
+
+<input placeholder="Your Name" required style="width:100%;padding:10px;margin:10px 0">
+<input placeholder="Phone Number" required style="width:100%;padding:10px;margin:10px 0">
+<input placeholder="Email" required style="width:100%;padding:10px;margin:10px 0">
+<textarea placeholder="Message" style="width:100%;padding:10px;margin:10px 0"></textarea>
+
+<button class="btn">Submit Appointment</button>
+</form>
+</section>
+
+<footer>
+© 2026 HarbirPoint Real Estate Law — All Rights Reserved
+</footer>
+
+<!-- WhatsApp Chat Button -->
+<a class="whatsapp" href="https://wa.me/12673172071" target="_blank">💬</a>
 
 </body>
 </html>
